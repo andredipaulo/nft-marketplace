@@ -7,7 +7,7 @@ import { msw } from 'msw/vite'
 
 export default defineConfig({
   base: '/',
-  
+
   plugins: [
     tanstackRouter({
       target: 'react',
