@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Cores extraídas do Figma */
+    --color-ink: #140D0A;
+    --color-fg: #F5F1EB;
+    --color-fg-secondary: #CFB28C;
+    --color-fg-tertiary: #B39463;
+
+    --color-primary: #D28A4C;
+    --color-primary-accent: #E89B55;
+
+    --color-surface-card: #241612;
+    --color-surface-dark: #38220F;
+
+    --color-border: #3F2319;
+    --color-border-soft: #55321F;
+
+    /* Fonte Roboto Mono */
+    --font-mono: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Base do body para bater com o Figma */
+body {
+    background-color: var(--color-ink);
+    color: var(--color-fg);
+    font-family: var(--font-mono);
+    -webkit-font-smoothing: antialiased;
+}
