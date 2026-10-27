@@ -13,7 +13,7 @@ export const mockNFTs = Array.from({ length: 24 }).map((_, i) => {
     // Junta o nome aleatório com o número (ex: "Emerald Ape #104")
     name: `${randomName} #${100 + i}`,
     price: (0.5 + Math.random() * 3).toFixed(2),
-    image: `/nfts/nft-${(i % IMAGES_COUNT) + 1}.png`,
+    image: `/nft-${(i % IMAGES_COUNT) + 1}.png`,
     collection: collections[i % collections.length],
     network: networks[i % networks.length],
   }
